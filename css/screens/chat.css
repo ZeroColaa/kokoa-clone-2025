@@ -160,34 +160,7 @@
   align-items: center;
   justify-content: center;
 }
-.reply__column button:focus,
-.reply__column button:active {
-  outline: none;
-}
+
 .reply i {
   opacity: 0.5;
-}
-.reply__column button i {
-  opacity: 1;
-}
-
-.reply .reply__column:first-child,
-.reply .fa-face-smile-wink,
-.reply button {
-  transition: opacity 0.3s ease-in-out;
-}
-
-.reply:focus-within .reply__column:first-child,
-.reply:focus-within .fa-face-smile-wink,
-.reply:focus-within button {
-  opacity: 0;
-}
-.reply input:focus {
-  width: 80vw;
-  margin: 0 auto;
-  transform: translateY(-80px);
-}
-
-.reply:focus-within {
-  transform: translateY(80px);
 }
